@@ -11,7 +11,7 @@ namespace OSLibraryApp
         public Linux(string userFullName) : base(userFullName)
         {
         }
-        public string ShowOS()
+        public override string ShowOS()
         {
             return "Welcome to Linux!";
         }

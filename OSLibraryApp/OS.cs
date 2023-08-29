@@ -7,7 +7,7 @@
         public OS(string userFullName)
         {
         }
-        public string ShowOS()
+        public virtual string ShowOS()
         {
             return "No OS Detected";
         }
