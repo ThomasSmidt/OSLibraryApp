@@ -9,5 +9,6 @@ namespace OSLibraryApp
     internal interface IOS
     {
         public string UserFullName { get; set; }
+        public string ShowOS();
     }
 }

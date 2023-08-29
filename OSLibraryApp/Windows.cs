@@ -11,7 +11,7 @@ namespace OSLibraryApp
         public Windows(string userFullName) : base(userFullName)
         {
         }
-        public override string ShowOS()
+        public string ShowOS()
         {
             return "Welcome to Windows!";
         }
