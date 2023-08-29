@@ -6,7 +6,10 @@
         public string UserFullName { get; set; }
         public OS(string userFullName)
         {
-            UserFullName = userFullName;
+        }
+        public string ShowOS()
+        {
+            return "No OS Detected";
         }
     }
 }
