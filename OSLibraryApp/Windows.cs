@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OSLibraryApp
 {
-    internal class Windows : OS, IOS
+    public class Windows : OS, IOS
     {
         public Windows(string userFullName) : base(userFullName)
         {

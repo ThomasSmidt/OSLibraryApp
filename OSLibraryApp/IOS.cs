@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OSLibraryApp
 {
-    internal interface IOS
+    public interface IOS
     {
         public string UserFullName { get; set; }
         public string ShowOS();
