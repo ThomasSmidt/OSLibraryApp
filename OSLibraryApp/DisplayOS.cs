@@ -1,7 +1,7 @@
 ﻿
 namespace OSLibraryApp
 {
-    internal class DisplayOS
+    public class DisplayOS
     {
         public string DetectAndDisplayOS()
         {
